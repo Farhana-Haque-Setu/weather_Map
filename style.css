@@ -1,0 +1,116 @@
+/* Reset styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling to center the card */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0; /* Optional, to add contrast */
+    margin: 0;
+    color: white;
+}
+
+/* Card styling */
+.card {
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg, #00febaa6, #5b548a);
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(1, 1, 1, 0.808); /* Optional for a better visual */
+}
+
+/* Search container */
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Input field styling */
+.search input {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+/* Search button styling */
+.search button {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.search button:hover {
+    background: #d1f7f3;
+}
+.weather {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.weather img {
+    width: 150px; 
+    height: 150px; 
+    margin-top:30px; 
+}
+
+.weather .temp {
+    font-size: 80px;
+    font-weight: 500;
+    
+}
+
+.weather h2 {
+    font-size: 45px;
+    font-size: 400;
+    margin-top: 10px;
+    
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width: 60px;
+    height:60px;
+    margin-right: 10px;
+}
+.humidity,.wind{
+    font-size: 24px;
+    margin-top:-6px;
+
+}
